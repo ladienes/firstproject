@@ -1,0 +1,70 @@
+.full{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.image {
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+
+
+.describe{
+    text-align: center;
+}
+
+.img img{
+    width: 100%;
+    width: 400px;
+}
+
+.elave{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding-top: 50px;
+    
+}
+
+.yazi{
+    width: 400px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #c263df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .btn:hover {
+    background-color: #722286;
+    transform: translateY(-3px);
+  }
+  
+  .btn:active {
+    background-color: #7750c0;
+    transform: translateY(1px);
+  }
